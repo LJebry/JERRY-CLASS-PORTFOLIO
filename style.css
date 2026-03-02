@@ -126,6 +126,11 @@ h2 {
     margin-top: 0;
 }
 
+.section-intro {
+    margin: 0.5rem 0 1.5rem;
+    color: var(--palm-leaf);
+}
+
 section ul {
     margin: 0.75rem 0 0;
     padding-left: 1.25rem;
@@ -190,6 +195,32 @@ section li {
 .card:hover {
     transform: translateY(-5px);
     border-color: var(--dusty-olive-2);
+}
+
+.assignment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.assignment-card h3 {
+    margin-top: 0;
+}
+
+.assignment-date {
+    font-size: 0.85rem;
+    color: var(--palm-leaf);
+    letter-spacing: 1px;
+    margin: 0.25rem 0 1rem;
+}
+
+.assignment-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--dusty-olive);
+    border-radius: 999px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
 }
 
 .project-card .item-header h3 {

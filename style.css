@@ -325,6 +325,53 @@ a:hover {
     margin-top: 1rem;
 }
 
+.animation-page {
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.animation-main {
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+    background: rgba(26, 37, 37, 0.9);
+    border: 1px solid var(--ebony);
+    padding: 1.5rem;
+}
+
+.animation-main h1 {
+    color: var(--dusty-olive-2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.animation-figure {
+    margin: 0;
+}
+
+.animation-media {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border: 3px solid var(--ebony);
+    background: #000;
+}
+
+.animation-figure figcaption {
+    margin-top: 0.6rem;
+    color: var(--palm-leaf);
+}
+
+.animation-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
 .dictionary-page {
     align-items: center;
     justify-content: center;

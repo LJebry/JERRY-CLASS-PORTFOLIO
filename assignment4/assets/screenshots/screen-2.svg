@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#061a29"/>
+  <rect x="24" y="24" width="912" height="492" rx="14" fill="#0b2a3d" stroke="#22617f"/>
+  <rect x="54" y="58" width="854" height="260" rx="12" fill="#124a65"/>
+  <text x="70" y="350" fill="#ddf4ff" font-family="Trebuchet MS" font-size="31">Blue Whales</text>
+  <text x="70" y="382" fill="#d0e8f7" font-family="Trebuchet MS" font-size="17">Blue whales are the largest animals on Earth and communicate with deep sounds.</text>
+  <rect x="70" y="402" width="270" height="46" rx="8" fill="#156789"/>
+  <text x="88" y="431" fill="#e7f9ff" font-family="Trebuchet MS" font-size="17">Play Topic Audio</text>
+  <rect x="360" y="402" width="270" height="46" rx="8" fill="#156789"/>
+  <text x="382" y="431" fill="#e7f9ff" font-family="Trebuchet MS" font-size="17">Read Description</text>
+  <rect x="648" y="402" width="240" height="46" rx="8" fill="#1b5774"/>
+  <text x="665" y="431" fill="#e7f9ff" font-family="Trebuchet MS" font-size="17">Quick Fact Visible</text>
+</svg>

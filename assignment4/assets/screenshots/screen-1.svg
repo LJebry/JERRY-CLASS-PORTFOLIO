@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#061a29"/>
+  <rect x="20" y="20" width="920" height="88" rx="12" fill="#0c3246" stroke="#22617f"/>
+  <text x="42" y="56" fill="#9ee9ff" font-family="Trebuchet MS" font-size="18">Ocean Echo Explorer</text>
+  <text x="42" y="84" fill="#d5efff" font-family="Trebuchet MS" font-size="30">Assignment 4 PWA Interface</text>
+  <rect x="20" y="130" width="290" height="390" rx="12" fill="#0b2a3d" stroke="#22617f"/>
+  <text x="38" y="166" fill="#cceeff" font-family="Trebuchet MS" font-size="20">Topic Menu</text>
+  <rect x="38" y="178" width="254" height="45" rx="8" fill="#123f58"/>
+  <text x="50" y="206" fill="#dcf4ff" font-family="Trebuchet MS" font-size="16">Coral Reefs</text>
+  <rect x="38" y="236" width="254" height="45" rx="8" fill="#156789"/>
+  <text x="50" y="264" fill="#dcf4ff" font-family="Trebuchet MS" font-size="16">Play Topic Audio</text>
+  <rect x="38" y="292" width="254" height="45" rx="8" fill="#156789"/>
+  <text x="50" y="320" fill="#dcf4ff" font-family="Trebuchet MS" font-size="16">Read Description</text>
+  <rect x="38" y="348" width="254" height="45" rx="8" fill="#156789"/>
+  <text x="50" y="376" fill="#dcf4ff" font-family="Trebuchet MS" font-size="16">Toggle Quick Fact</text>
+  <rect x="330" y="130" width="610" height="390" rx="12" fill="#0b2a3d" stroke="#22617f"/>
+  <rect x="352" y="152" width="566" height="240" rx="10" fill="#12516e"/>
+  <text x="352" y="424" fill="#dcf4ff" font-family="Trebuchet MS" font-size="30">Coral Reefs</text>
+  <text x="352" y="456" fill="#c5dfed" font-family="Trebuchet MS" font-size="17">Topic image + educational text loaded from JSON.</text>
+</svg>

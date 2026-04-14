@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b2a3d">
+    <title>Ocean Echo Explorer</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="apple-touch-icon" href="./assets/icons/icon-192.svg">
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <header class="app-header">
+        <div>
+            <p class="eyebrow">Assignment 4 PWA</p>
+            <h1>Ocean Echo Explorer</h1>
+            <p class="subtitle">An educational multimedia learning app about marine ecosystems.</p>
+        </div>
+        <div class="header-actions">
+            <button id="installBtn" class="action-btn" type="button" hidden>Install App</button>
+            <a class="action-link" href="./index.html">Project Page</a>
+        </div>
+    </header>
+
+    <main class="app-layout">
+        <section class="control-panel">
+            <h2>Topic Menu</h2>
+            <label for="topicMenu">Pick a topic</label>
+            <select id="topicMenu" aria-label="Topic Menu"></select>
+
+            <div class="button-stack">
+                <button id="playAudioBtn" class="action-btn" type="button">Play Topic Audio</button>
+                <button id="speakTextBtn" class="action-btn" type="button">Read Description</button>
+                <button id="factBtn" class="action-btn" type="button">Toggle Quick Fact</button>
+            </div>
+
+            <div class="status-wrap">
+                <p id="statusMessage">Loading dataset...</p>
+                <p id="profileInfo" class="profile-info"></p>
+            </div>
+        </section>
+
+        <section class="content-panel" aria-live="polite">
+            <img id="topicImage" src="" alt="" class="topic-image">
+            <h2 id="topicTitle"></h2>
+            <p id="topicDescription"></p>
+            <p id="topicFact" class="fact-box" hidden></p>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>

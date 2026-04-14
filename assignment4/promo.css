@@ -1,0 +1,136 @@
+:root {
+    --bg: #03141e;
+    --panel: #0a2535;
+    --line: #16455d;
+    --ink: #e9f8ff;
+    --muted: #98c7df;
+    --accent: #3dc2ee;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    color: var(--ink);
+    background:
+        radial-gradient(circle at 85% 5%, #0e3850 0, transparent 25%),
+        radial-gradient(circle at 20% 10%, #0c3248 0, transparent 30%),
+        linear-gradient(180deg, #041a28 0%, #03141e 100%);
+}
+
+.hero {
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+    background: rgba(3, 20, 30, 0.82);
+}
+
+.kicker {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-size: 0.78rem;
+}
+
+h1 {
+    margin: 0.4rem 0;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.lead {
+    margin: 0 auto;
+    color: var(--muted);
+    max-width: 64ch;
+}
+
+.hero-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 0.95rem;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    text-decoration: none;
+    color: var(--ink);
+    background: #0f3246;
+}
+
+.btn.primary {
+    border-color: #2caed8;
+    background: #136184;
+}
+
+main {
+    width: min(1100px, calc(100% - 2rem));
+    margin: 1rem auto 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+section {
+    background: rgba(10, 37, 53, 0.9);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+code {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    padding: 0.1rem 0.4rem;
+}
+
+.shot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.9rem;
+}
+
+figure {
+    margin: 0;
+    background: rgba(11, 45, 65, 0.75);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.6rem;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #205a78;
+    background: #082a3d;
+}
+
+figcaption {
+    margin-top: 0.45rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+a {
+    color: #9ce7ff;
+}

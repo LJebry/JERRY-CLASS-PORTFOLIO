@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Echo Explorer - Project Page</title>
+    <link rel="stylesheet" href="./promo.css">
+</head>
+<body>
+    <header class="hero">
+        <p class="kicker">Progressive Web App Development</p>
+        <h1>Ocean Echo Explorer</h1>
+        <p class="lead">A multimedia learning app about marine life, built with HTML5, CSS, JavaScript, JSON, a manifest, and a service worker.</p>
+        <div class="hero-actions">
+            <a class="btn primary" href="./app.html">Open Web App</a>
+            <a class="btn" href="../index.html">Back to Portfolio</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>What This App Does</h2>
+            <ul>
+                <li>Dynamically loads topic data from <code>data/topics.json</code>.</li>
+                <li>Builds the topic menu in JavaScript from the JSON dataset.</li>
+                <li>Displays image, description, and quick fact for each topic.</li>
+                <li>Plays narration with Web Speech API.</li>
+                <li>Supports install prompt and offline caching with service worker.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>App Screenshots</h2>
+            <div class="shot-grid">
+                <figure>
+                    <img src="./assets/screenshots/screen-1.svg" alt="Ocean Echo Explorer main interface screenshot">
+                    <figcaption>Main app layout with dynamic topic menu.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/screenshots/screen-2.svg" alt="Topic details and narration controls screenshot">
+                    <figcaption>Topic details panel with audio controls.</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/screenshots/screen-3.svg" alt="Install prompt workflow screenshot">
+                    <figcaption>Install flow and offline-ready status.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>How to Install</h2>
+            <ol>
+                <li>Open the app from the <a href="./app.html">web version link</a>.</li>
+                <li>Wait for the <strong>Install App</strong> button to appear.</li>
+                <li>Click <strong>Install App</strong> and accept the browser prompt.</li>
+                <li>Launch it from your device home screen or app launcher.</li>
+            </ol>
+            <p>If the install button does not appear, the browser may not support PWA install for the current context.</p>
+        </section>
+
+        <section>
+            <h2>Documentation</h2>
+            <ul>
+                <li><a href="./INSTRUCTIONS.md">Quick Instructions</a></li>
+                <li><a href="./DOCUMENTATION.md">User and Feature Documentation</a></li>
+                <li><a href="./PROGRAMMER.md">Programmer JSON Customization Guide</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

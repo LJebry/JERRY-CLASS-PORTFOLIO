@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2da6d1"/>
+      <stop offset="100%" stop-color="#0f4765"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#sea)"/>
+  <ellipse cx="130" cy="88" rx="46" ry="26" fill="#ffffff" opacity="0.15"/>
+  <ellipse cx="245" cy="120" rx="60" ry="34" fill="#ffffff" opacity="0.12"/>
+  <rect y="350" width="800" height="130" fill="#6e4f35"/>
+  <path d="M120 354c30-55 75-62 96 0z" fill="#ff8a65"/>
+  <path d="M230 354c36-68 88-72 110 0z" fill="#f06292"/>
+  <path d="M364 354c31-60 75-56 93 0z" fill="#ff7043"/>
+  <path d="M500 354c42-74 104-78 122 0z" fill="#ff8f00"/>
+  <path d="M650 354c27-46 61-48 76 0z" fill="#ec407a"/>
+  <ellipse cx="260" cy="210" rx="54" ry="27" fill="#ffd54f"/>
+  <circle cx="279" cy="204" r="4" fill="#263238"/>
+  <polygon points="210,210 182,193 182,227" fill="#ffd54f"/>
+  <ellipse cx="420" cy="255" rx="44" ry="21" fill="#80deea"/>
+  <circle cx="434" cy="250" r="3" fill="#263238"/>
+  <polygon points="382,255 360,241 360,268" fill="#80deea"/>
+</svg>

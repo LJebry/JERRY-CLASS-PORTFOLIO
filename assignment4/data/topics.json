@@ -1,0 +1,72 @@
+{
+  "appName": "Ocean Echo Explorer",
+  "version": "1.0.0",
+  "updated": "2026-04-14",
+  "userProfile": {
+    "learnerName": "Guest Learner",
+    "level": "Beginner",
+    "preferredNarrationRate": 0.95
+  },
+  "topics": [
+    {
+      "id": "reef",
+      "title": "Coral Reefs",
+      "description": "Coral reefs are underwater ecosystems built by tiny animals called coral polyps. They protect coastlines and provide shelter for thousands of species.",
+      "quickFact": "A healthy reef can support one quarter of all marine species.",
+      "image": "./assets/topics/reef.svg",
+      "imageAlt": "Illustration of fish and coral reef structures.",
+      "audio": {
+        "mode": "tts",
+        "text": "Coral reefs are built by small coral animals and help protect many sea creatures."
+      }
+    },
+    {
+      "id": "whale",
+      "title": "Blue Whales",
+      "description": "Blue whales are the largest animals on Earth. They communicate with deep sounds that travel long distances through the ocean.",
+      "quickFact": "A blue whale heart can weigh as much as a small car.",
+      "image": "./assets/topics/whale.svg",
+      "imageAlt": "Illustration of a blue whale swimming in open water.",
+      "audio": {
+        "mode": "tts",
+        "text": "Blue whales are giant mammals and use low-frequency calls to communicate."
+      }
+    },
+    {
+      "id": "turtle",
+      "title": "Sea Turtles",
+      "description": "Sea turtles migrate across entire oceans and return to beaches to lay eggs. Their survival depends on clean shores and protected nesting areas.",
+      "quickFact": "Some sea turtles travel more than 1,000 miles between feeding and nesting grounds.",
+      "image": "./assets/topics/turtle.svg",
+      "imageAlt": "Illustration of a sea turtle near waves.",
+      "audio": {
+        "mode": "tts",
+        "text": "Sea turtles migrate long distances and return to beaches where they were born."
+      }
+    },
+    {
+      "id": "jellyfish",
+      "title": "Jellyfish",
+      "description": "Jellyfish drift with currents and use tentacles to capture food. Some species glow in the dark using bioluminescence.",
+      "quickFact": "Jellyfish have existed for over 500 million years.",
+      "image": "./assets/topics/jellyfish.svg",
+      "imageAlt": "Illustration of jellyfish floating in deep water.",
+      "audio": {
+        "mode": "tts",
+        "text": "Jellyfish move with ocean currents and some species can produce light."
+      }
+    },
+    {
+      "id": "mangrove",
+      "title": "Mangrove Forests",
+      "description": "Mangrove trees grow where land and sea meet. Their roots create nurseries for young fish and protect coastlines from storms.",
+      "quickFact": "Mangroves store large amounts of carbon and help fight climate change.",
+      "image": "./assets/topics/mangrove.svg",
+      "imageAlt": "Illustration of mangrove roots and fish.",
+      "audio": {
+        "mode": "tts",
+        "text": "Mangrove roots provide homes for young fish and protect coastlines from erosion."
+      }
+    }
+  ]
+}

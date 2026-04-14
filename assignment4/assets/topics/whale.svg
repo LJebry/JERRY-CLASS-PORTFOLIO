@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a7db2"/>
+      <stop offset="100%" stop-color="#0a2c45"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#ocean)"/>
+  <path d="M90 300c30-90 160-130 300-122 94 5 180 28 250 62 26 13 35 43 20 66-18 28-44 48-72 59-52 21-128 29-198 18-90-14-202-39-270-83-25-16-39-28-30-40z" fill="#59a7d9"/>
+  <path d="M531 204c21-9 55-11 86 10-16 18-40 36-60 40z" fill="#59a7d9"/>
+  <path d="M114 292c-35 22-54 52-56 73 24-9 49-29 61-53z" fill="#59a7d9"/>
+  <ellipse cx="350" cy="282" rx="138" ry="55" fill="#7fc0e8"/>
+  <circle cx="445" cy="268" r="7" fill="#102235"/>
+  <path d="M360 224c8-24 26-33 44-36-9 20-16 34-36 44z" fill="#78bae1"/>
+  <ellipse cx="430" cy="82" rx="28" ry="44" fill="#b5e8ff" opacity="0.2"/>
+  <ellipse cx="468" cy="106" rx="16" ry="24" fill="#b5e8ff" opacity="0.15"/>
+</svg>

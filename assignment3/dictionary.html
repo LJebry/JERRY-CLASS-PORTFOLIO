@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Robayo - Multimedia Dictionary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="fredericka-the-great-regular dictionary-page">
+    <main class="dictionary-main">
+        <h1>Multimedia Dictionary</h1>
+
+        <div class="dictionary-panel">
+            <div class="dictionary-row">
+                <label for="wordSelect">Word Selection</label>
+                <div class="dictionary-controls">
+                    <select id="wordSelect" onchange="syncDictionary()">
+                        <option value="">-- Select --</option>
+                        <option value="Apple" data-sentence="The apple is red and crunchy.">Apple</option>
+                        <option value="Butterfly" data-sentence="The butterfly has colorful wings.">Butterfly</option>
+                        <option value="Elephant" data-sentence="The elephant uses its trunk to drink water.">Elephant</option>
+                        <option value="Guitar" data-sentence="The guitar makes music when you strum the strings.">Guitar</option>
+                        <option value="Rainbow" data-sentence="A rainbow appears after the rain and sun.">Rainbow</option>
+                    </select>
+                    <button type="button" class="dictionary-button" onclick="speakSelectedWord()">Speak Word</button>
+                </div>
+            </div>
+
+            <div class="dictionary-row">
+                <label for="sentenceDisplay">Sentence Display</label>
+                <div class="dictionary-controls">
+                    <textarea id="sentenceDisplay" rows="3" readonly placeholder="Select a word to display its sentence."></textarea>
+                    <button type="button" class="dictionary-button" onclick="speakCurrentSentence()">Speak Sentence</button>
+                </div>
+            </div>
+        </div>
+
+        <p class="return-link-wrap">
+            <a class="assignment-link" href="../index.html">Return to Main Portfolio Page</a>
+        </p>
+    </main>
+
+    <script src="dictionary.js"></script>
+</body>
+</html>

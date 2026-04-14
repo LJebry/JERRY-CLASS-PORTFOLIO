@@ -324,3 +324,91 @@ a:hover {
 .return-link-wrap {
     margin-top: 1rem;
 }
+
+.dictionary-page {
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.dictionary-main {
+    width: 100%;
+    max-width: 980px;
+    background: rgba(26, 37, 37, 0.9);
+    border: 1px solid var(--ebony);
+    padding: 1.5rem;
+}
+
+.dictionary-main h1 {
+    color: var(--dusty-olive-2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.dictionary-panel {
+    background: var(--charcoal-brown);
+    border: 1px solid var(--ebony-2);
+    padding: 1rem;
+}
+
+.dictionary-row + .dictionary-row {
+    margin-top: 1rem;
+}
+
+.dictionary-row label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--dusty-olive-2);
+    letter-spacing: 1px;
+}
+
+.dictionary-controls {
+    display: flex;
+    align-items: stretch;
+    gap: 0.75rem;
+}
+
+#wordSelect,
+#sentenceDisplay {
+    width: 100%;
+    border: 1px solid var(--ebony);
+    background: var(--jet-black-2);
+    color: var(--dry-sage);
+    padding: 0.6rem 0.75rem;
+    font-family: "Fredericka the Great", serif;
+    font-size: 1rem;
+}
+
+#sentenceDisplay {
+    resize: vertical;
+    min-height: 84px;
+}
+
+.dictionary-button {
+    border: 1px solid var(--dusty-olive);
+    background: var(--ebony);
+    color: var(--dry-sage);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.6rem 0.9rem;
+    font-family: "Fredericka the Great", serif;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dictionary-button:hover {
+    background: var(--dusty-olive);
+    color: var(--jet-black-2);
+}
+
+@media (max-width: 700px) {
+    .dictionary-controls {
+        flex-direction: column;
+    }
+
+    .dictionary-button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Robayo - Bootstrap Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./resume.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#resumeNav" data-bs-offset="90" tabindex="0">
+    <nav id="resumeNav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-bottom border-secondary-subtle">
+        <div class="container">
+            <a class="navbar-brand fw-semibold" href="#top">Jerry Robayo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#honors">Activities & Honors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="top" class="hero-section py-5">
+        <div class="container pt-5 mt-4">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-8">
+                    <p class="text-uppercase small fw-semibold text-info mb-2">Bootstrap Resume Project</p>
+                    <h1 class="display-5 fw-bold mb-3">Jerry Robayo</h1>
+                    <p class="lead mb-4">Computer Science student focused on multimedia programming, full-stack web development, and building engaging educational interfaces.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a class="btn btn-info text-dark fw-semibold" href="mailto:jerryrobayo1130@gmail.com"><i class="bi bi-envelope-fill me-2"></i>Email</a>
+                        <a class="btn btn-outline-light" href="tel:19293088261"><i class="bi bi-telephone-fill me-2"></i>Call</a>
+                        <a class="btn btn-outline-light" href="https://github.com/LJebry" target="_blank" rel="noopener"><i class="bi bi-github me-2"></i>GitHub</a>
+                        <a class="btn btn-outline-light" href="../index.html">Main Portfolio</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card glass-card border-0 h-100">
+                        <div class="card-body">
+                            <h2 class="h5 mb-3">Contact Info</h2>
+                            <p class="mb-2"><i class="bi bi-geo-alt-fill me-2 text-info"></i>Queens, NY</p>
+                            <p class="mb-2"><i class="bi bi-envelope-fill me-2 text-info"></i>jerryrobayo1130@gmail.com</p>
+                            <p class="mb-2"><i class="bi bi-telephone-fill me-2 text-info"></i>(929)-308-8261</p>
+                            <p class="mb-0"><i class="bi bi-linkedin me-2 text-info"></i>linkedin.com/in/jerry-robayo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pb-5">
+        <section id="summary" class="section-pad">
+            <div class="container">
+                <h2 class="section-title">Summary</h2>
+                <div class="card bg-body-tertiary border-0 shadow-sm">
+                    <div class="card-body">
+                        <p class="mb-0">Detail-oriented developer with internship experience across full-stack systems, API integrations, and responsive interfaces. Strong foundation in JavaScript, TypeScript, and modern web frameworks. Known for shipping reliable features quickly and collaborating effectively in team-based development environments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-pad">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
+                            <h3 class="h5 mb-0">Brooklyn College, CUNY</h3>
+                            <span class="badge text-bg-dark">Expected May 2026</span>
+                        </div>
+                        <p class="mb-1 mt-2">BS in Computer Science</p>
+                        <p class="text-secondary mb-3">GPA: 3.5 / 4.0 · Dean's List</p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge text-bg-primary">Web Applications</span>
+                            <span class="badge text-bg-primary">Multimedia Computing</span>
+                            <span class="badge text-bg-primary">Data Structures</span>
+                            <span class="badge text-bg-primary">Algorithms</span>
+                            <span class="badge text-bg-primary">Object-Oriented Programming</span>
+                            <span class="badge text-bg-primary">Discrete Mathematics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-pad">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="accordion shadow-sm" id="experienceAccordion">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#expOne" aria-expanded="true" aria-controls="expOne">
+                                Full Stack Developer · Sports Excitement (June 2025 - Dec 2025)
+                            </button>
+                        </h3>
+                        <div id="expOne" class="accordion-collapse collapse show" data-bs-parent="#experienceAccordion">
+                            <div class="accordion-body">
+                                Built responsive Next.js + Tailwind dashboards, implemented TypeScript API clients with JWT-aware interceptors, and managed app-wide auth state with Zustand and Zod.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#expTwo" aria-expanded="false" aria-controls="expTwo">
+                                Software Engineer Intern · Unadat (June 2025 - Aug 2025)
+                            </button>
+                        </h3>
+                        <div id="expTwo" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="accordion-body">
+                                Maintained and improved chore-management workflows across HTML, CSS, JavaScript, PHP, and SQL while debugging high-impact features.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#expThree" aria-expanded="false" aria-controls="expThree">
+                                Web Developer Intern · Deo Mwano Consultancy (June 2024 - Aug 2024)
+                            </button>
+                        </h3>
+                        <div id="expThree" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="accordion-body">
+                                Contributed to a calendar app using HTML, CSS, JavaScript, and Ruby on Rails; improved deployment speed with strong Git/GitHub workflows.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-pad">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h6">Languages & Databases</h3>
+                                <p class="mb-2">JavaScript, TypeScript, HTML, CSS, Java, Ruby, PHP, MySQL</p>
+                                <div class="progress mb-2" role="progressbar" aria-label="Frontend skill level">
+                                    <div class="progress-bar bg-info text-dark fw-semibold" style="width: 90%">Frontend</div>
+                                </div>
+                                <div class="progress mb-2" role="progressbar" aria-label="Backend skill level">
+                                    <div class="progress-bar bg-primary" style="width: 80%">Backend</div>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Database skill level">
+                                    <div class="progress-bar bg-success" style="width: 75%">Databases</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h6">Frameworks & Tools</h3>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge text-bg-dark">React</span>
+                                    <span class="badge text-bg-dark">Next.js</span>
+                                    <span class="badge text-bg-dark">Tailwind</span>
+                                    <span class="badge text-bg-dark">Ruby on Rails</span>
+                                    <span class="badge text-bg-dark">Node.js</span>
+                                    <span class="badge text-bg-dark">Git</span>
+                                    <span class="badge text-bg-dark">Supabase</span>
+                                    <span class="badge text-bg-dark">Netlify</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="honors" class="section-pad">
+            <div class="container">
+                <h2 class="section-title">Activities & Honors</h2>
+                <div class="list-group shadow-sm">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                        Dean's List Recognition
+                        <span class="badge text-bg-success rounded-pill">Academic</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                        Multimedia Programming Portfolio Development
+                        <span class="badge text-bg-info rounded-pill text-dark">Project Work</span>
+                    </div>
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                        Team-Based Internship Delivery
+                        <span class="badge text-bg-primary rounded-pill">Professional</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-pad">
+            <div class="container">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                    <h2 class="section-title mb-0">Portfolio Highlights</h2>
+                    <a class="btn btn-sm btn-outline-secondary" href="../index.html">View Full Portfolio</a>
+                </div>
+
+                <div id="projectCarousel" class="carousel slide shadow-sm mb-4" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img src="../assignment4/assets/screenshots/screen-1.svg" class="d-block w-100 carousel-image" alt="Ocean Echo Explorer interface screenshot">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="h5">Ocean Echo Explorer PWA</h3>
+                                <p>Installable educational app with JSON-driven content and offline support.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assignment5/assets/animation.gif" class="d-block w-100 carousel-image" alt="Stickman animation screenshot">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="h5">Animation Showcase</h3>
+                                <p>Custom animation export with downloadable project source.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assignment4/assets/screenshots/screen-3.svg" class="d-block w-100 carousel-image" alt="Install and offline workflow screenshot">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="h5">Data-Driven Multimedia Projects</h3>
+                                <p>Course projects focused on interactivity, media, and web APIs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h6">Data Visualization Dashboard (Planned)</h3>
+                                <p class="mb-0">Upcoming concept for chart-based storytelling and interactive filtering.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h6">Multimedia Dictionary</h3>
+                                <p class="mb-0">Web Speech API project for early learner word recognition.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h6">Canvas Cartoon Scene</h3>
+                                <p class="mb-0">Custom-drawn scene using HTML5 canvas and JavaScript rendering.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

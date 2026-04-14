@@ -1,0 +1,42 @@
+body {
+    background:
+        radial-gradient(circle at 12% 10%, rgba(79, 70, 229, 0.22), transparent 30%),
+        radial-gradient(circle at 88% 8%, rgba(34, 197, 94, 0.22), transparent 30%),
+        #f4f7fb;
+}
+
+.hero-section {
+    color: #f8fafc;
+    background:
+        linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.96)),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 800'%3E%3Cg fill='%23222f45'%3E%3Cpath d='M0 780h1600v20H0zM0 730h1600v20H0zM0 680h1600v20H0zM0 630h1600v20H0zM0 580h1600v20H0zM0 530h1600v20H0zM0 480h1600v20H0zM0 430h1600v20H0zM0 380h1600v20H0zM0 330h1600v20H0zM0 280h1600v20H0zM0 230h1600v20H0zM0 180h1600v20H0zM0 130h1600v20H0zM0 80h1600v20H0zM0 30h1600v20H0z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f8fafc;
+    backdrop-filter: blur(4px);
+}
+
+.section-pad {
+    padding: 2rem 0 0.5rem;
+}
+
+.section-title {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.carousel-image {
+    max-height: 450px;
+    object-fit: cover;
+    background: #0f172a;
+}
+
+.carousel-caption {
+    background: rgba(2, 6, 23, 0.62);
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.9rem;
+}
